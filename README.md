@@ -30,5 +30,6 @@ penghui, penghui_only@163.com
 
 WBAssociationView is available under the MIT license. See the LICENSE file for more info.
 
-> 参考：
-[https://github.com/chenyang-ios/tankuang](https://github.com/chenyang-ios/tankuang)
+> 参考：</br>
+1.[https://github.com/chenyang-ios/tankuang](https://github.com/chenyang-ios/tankuang)
+2.[https://github.com/lexiaoyao20/FMTagsView.git](https://github.com/lexiaoyao20/FMTagsView.git)
