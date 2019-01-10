@@ -29,3 +29,6 @@ penghui, penghui_only@163.com
 ## License
 
 WBAssociationView is available under the MIT license. See the LICENSE file for more info.
+
+> 参考：
+[https://github.com/chenyang-ios/tankuang](https://github.com/chenyang-ios/tankuang)
