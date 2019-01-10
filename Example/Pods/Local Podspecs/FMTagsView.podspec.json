@@ -1,0 +1,25 @@
+{
+  "name": "FMTagsView",
+  "summary": "一个基于UICollectionView的标签展示控件 .",
+  "version": "0.1.5",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Subo": "455295813@qq.com"
+  },
+  "social_media_url": "http://bobdev.cn/",
+  "homepage": "https://github.com/huipengo/FMTagsView",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/huipengo/FMTagsView.git",
+    "tag": "0.1.5"
+  },
+  "requires_arc": true,
+  "source_files": "FMTagsView/TagsView/**/*.{h,m}",
+  "public_header_files": "FMTagsView/TagsView/**/*.{h}",
+  "frameworks": "UIKit"
+}

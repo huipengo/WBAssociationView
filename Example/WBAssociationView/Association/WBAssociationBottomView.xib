@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WBAssociationBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="99" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMB-co-rlE">
+                    <rect key="frame" x="295" y="10" width="65" height="30"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.32156862749999998" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="cDd-8e-Hgn"/>
+                        <constraint firstAttribute="width" constant="65" id="yx5-QB-PMh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="wb_doneAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="OYX-vl-DKu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="97" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldQ-Dg-5iP">
+                    <rect key="frame" x="15" y="0.0" width="80" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="3Iv-2s-7w6"/>
+                        <constraint firstAttribute="height" constant="50" id="uMG-jh-cDC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="全选" image="wb_directional_unselected">
+                        <color key="titleColor" red="0.090196078430000007" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="wb_allSelectAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="pGL-2d-avO"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nMK-Jh-uFh">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.86274509799999999" green="0.8862745098" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="8Sp-yb-nEH"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="98" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjr-hp-cgT">
+                    <rect key="frame" x="115" y="0.0" width="165" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="vfd-fr-rYC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="已选 0 个" image="wb_arrow_up_bold">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="wb_selectedAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="AHj-ag-NhH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YMB-co-rlE" firstAttribute="top" secondItem="nMK-Jh-uFh" secondAttribute="bottom" constant="9.5" id="2om-co-HXN"/>
+                <constraint firstItem="ldQ-Dg-5iP" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="DcZ-Z7-Tb3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YMB-co-rlE" secondAttribute="trailing" constant="15" id="GSB-RO-4Td"/>
+                <constraint firstItem="ldQ-Dg-5iP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="GrF-4x-VET"/>
+                <constraint firstItem="YMB-co-rlE" firstAttribute="leading" secondItem="tjr-hp-cgT" secondAttribute="trailing" constant="15" id="LEC-dE-Z4c"/>
+                <constraint firstItem="nMK-Jh-uFh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Ses-YS-cjB"/>
+                <constraint firstAttribute="trailing" secondItem="nMK-Jh-uFh" secondAttribute="trailing" id="T1n-bN-dP0"/>
+                <constraint firstItem="nMK-Jh-uFh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="f5w-Ae-Ul6"/>
+                <constraint firstItem="tjr-hp-cgT" firstAttribute="leading" secondItem="ldQ-Dg-5iP" secondAttribute="trailing" constant="20" id="g9K-l8-zeY"/>
+                <constraint firstItem="tjr-hp-cgT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="qPK-vf-2cE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="all_select_button" destination="ldQ-Dg-5iP" id="l3W-8C-WqH"/>
+                <outlet property="done_button" destination="YMB-co-rlE" id="lPS-u6-QOD"/>
+                <outlet property="selected_button" destination="tjr-hp-cgT" id="aGt-De-lnL"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="wb_arrow_up_bold" width="15" height="15"/>
+        <image name="wb_directional_unselected" width="16" height="16"/>
+    </resources>
+</document>

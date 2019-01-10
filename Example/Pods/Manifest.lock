@@ -1,0 +1,39 @@
+PODS:
+  - FMTagsView (0.1.5)
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.0)
+  - WBAssociationView (0.1.0):
+    - Masonry (>= 1.1.0)
+    - ReactiveObjC (>= 3.1.0)
+
+DEPENDENCIES:
+  - FMTagsView (from `https://github.com/huipengo/FMTagsView.git`)
+  - Masonry (>= 1.1.0)
+  - ReactiveObjC (>= 3.1.0)
+  - WBAssociationView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  FMTagsView:
+    :git: https://github.com/huipengo/FMTagsView.git
+  WBAssociationView:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  FMTagsView:
+    :commit: b1d09de71b264f81bdd597daf28cdb96dd2da857
+    :git: https://github.com/huipengo/FMTagsView.git
+
+SPEC CHECKSUMS:
+  FMTagsView: b0893152dd7827e4f260b8c82aaaa19a1ed91b4f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  WBAssociationView: 0b4e7249bed7be25b7862397127f375eb0008780
+
+PODFILE CHECKSUM: a5ee2ac5d854487ebadc5b6ce4afa4d0b2e06bb8
+
+COCOAPODS: 1.5.3

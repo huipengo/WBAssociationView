@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/specs.git'
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'WBAssociationView_Example' do
+    pod 'WBAssociationView', :path => '../'
+    pod 'Masonry', '>= 1.1.0'
+    pod 'ReactiveObjC', '>= 3.1.0'
+    pod 'FMTagsView', :git => 'https://github.com/huipengo/FMTagsView.git'
+
+  target 'WBAssociationView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
