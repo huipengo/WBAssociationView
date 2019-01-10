@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+[image.gif](https://github.com/huipengo/WBAssociationView/blob/master/association.gif)
+
 ## Requirements
 
 ## Installation
