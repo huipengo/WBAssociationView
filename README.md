@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-[image.gif](https://github.com/huipengo/WBAssociationView/blob/master/association.gif)
+![效果显示](https://github.com/huipengo/WBAssociationView/blob/master/association.gif)
 
 ## Requirements
 
@@ -19,7 +19,7 @@ WBAssociationView is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WBAssociationView'
+暂不支持 pod 'WBAssociationView'
 ```
 
 ## Author
